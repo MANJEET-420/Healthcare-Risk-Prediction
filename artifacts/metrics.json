@@ -1,0 +1,94 @@
+{
+  "best_model": "Logistic Regression",
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.7315,
+      "precision": 0.3107,
+      "recall": 0.7611,
+      "f1": 0.4413,
+      "roc_auc": 0.8196,
+      "confusion_matrix": [
+        [
+          31734,
+          11933
+        ],
+        [
+          1689,
+          5380
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9494659366304641,
+          "recall": 0.7267272768910161,
+          "f1-score": 0.8232974445453366,
+          "support": 43667.0
+        },
+        "1": {
+          "precision": 0.3107491480390458,
+          "recall": 0.7610694581977648,
+          "f1-score": 0.441309162496924,
+          "support": 7069.0
+        },
+        "accuracy": 0.7315121412803532,
+        "macro avg": {
+          "precision": 0.630107542334755,
+          "recall": 0.7438983675443904,
+          "f1-score": 0.6323033035211303,
+          "support": 50736.0
+        },
+        "weighted avg": {
+          "precision": 0.8604741166495288,
+          "recall": 0.7315121412803532,
+          "f1-score": 0.7700753701642221,
+          "support": 50736.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.838,
+      "precision": 0.4184,
+      "recall": 0.4172,
+      "f1": 0.4178,
+      "roc_auc": 0.8122,
+      "confusion_matrix": [
+        [
+          39568,
+          4099
+        ],
+        [
+          4120,
+          2949
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9056949276689251,
+          "recall": 0.9061304875535301,
+          "f1-score": 0.9059126552572835,
+          "support": 43667.0
+        },
+        "1": {
+          "precision": 0.418416572077185,
+          "recall": 0.41717357476304995,
+          "f1-score": 0.4177941488984912,
+          "support": 7069.0
+        },
+        "accuracy": 0.8380045726900032,
+        "macro avg": {
+          "precision": 0.662055749873055,
+          "recall": 0.6616520311582901,
+          "f1-score": 0.6618534020778873,
+          "support": 50736.0
+        },
+        "weighted avg": {
+          "precision": 0.8378028846289138,
+          "recall": 0.8380045726900032,
+          "f1-score": 0.8379035547871971,
+          "support": 50736.0
+        }
+      }
+    }
+  },
+  "target": "Diabetes_binary"
+}
